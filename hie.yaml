@@ -1,0 +1,15 @@
+cradle:
+  multi:
+    # - path: "ignore/"
+    #   config: {cradle: {none: }}
+    - path: "src"
+      config: {cradle: {cabal: {component: "guinevere3:guinevere3-exe"}}}
+    
+    - path: "lib"
+      config: {cradle: {cabal: {component: "lib:guinevere3"}}}
+  
+    - path: "test"
+      config: {cradle: {cabal: {component: "guinevere3:guinevere3-test"}}}
+    
+    - path: "bench"
+      config: {cradle: {cabal: {component: "guinevere3:guinevere3-bench"}}}
