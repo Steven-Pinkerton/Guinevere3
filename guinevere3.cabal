@@ -17,6 +17,48 @@ common common-options
   build-depends:      base >=4.9 && <5
   default-language:   Haskell2010
   default-extensions: 
+        BangPatterns
+        ConstraintKinds
+        DataKinds
+        DeriveDataTypeable
+        DeriveFoldable
+        DeriveFunctor
+        DeriveGeneric
+        DeriveLift
+        DeriveTraversable
+        DerivingStrategies
+        DuplicateRecordFields
+        DerivingVia
+        EmptyCase
+        EmptyDataDecls
+        EmptyDataDeriving
+        ExistentialQuantification
+        ExplicitForAll
+        FlexibleContexts
+        FlexibleInstances
+        GADTSyntax
+        GeneralisedNewtypeDeriving
+        ImportQualifiedPost
+        KindSignatures
+        LambdaCase
+        MultiParamTypeClasses
+        MultiWayIf
+        NoStarIsType
+        NumericUnderscores
+        OverloadedStrings
+        PartialTypeSignatures
+        PolyKinds
+        PostfixOperators
+        RankNTypes
+        ScopedTypeVariables
+        StandaloneDeriving
+        StandaloneKindSignatures
+        TupleSections
+        TypeApplications
+        TypeFamilies
+        TypeOperators
+        UndecidableInstances
+        ViewPatterns
   ghc-options:
 
 executable guinevere3-exe
